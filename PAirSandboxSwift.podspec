@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.platform     = :ios, "9.0"
 
-  spec.source       = { :git => "https://github.com/fremaksim/PAirSandBoxSwift", :tag => {spec.version} }
+  spec.source       = { :git => "https://github.com/fremaksim/PAirSandBoxSwift", :tag => spec.version }
   spec.source_files  = 'PAirSandboxSwift/*.swift'
   spec.requires_arc  = true
 
