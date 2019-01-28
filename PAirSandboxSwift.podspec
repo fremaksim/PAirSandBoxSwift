@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.author             = { "慢从前" => "941725856@qq.com" }
+  spec.author             = { "fremaksim" => "lxwgh2007@gmail.com" }
 
 
   # Compatibility & Sources
