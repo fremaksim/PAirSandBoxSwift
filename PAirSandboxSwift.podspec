@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   #Version
   spec.name          = "PAirSandboxSwift"
   spec.version       = "0.0.1"
-  spec.swift_version = 4.2
+  spec.swift_version = "4.2"
   spec.summary       = "A Swift verson of PAirSandbox(https://github.com/music4kid/AirSandbox)."
 
 
