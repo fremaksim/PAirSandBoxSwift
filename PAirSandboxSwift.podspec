@@ -29,7 +29,6 @@ Pod::Spec.new do |spec|
 
 
   # Compatibility & Sources
-  spec.platform     = :ios
   spec.platform     = :ios, "9.0"
 
   spec.source       = { :git => "https://github.com/fremaksim/PAirSandBoxSwift.git", :tag => spec.version }
