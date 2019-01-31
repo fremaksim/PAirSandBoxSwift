@@ -261,7 +261,7 @@ extension ASViewController: UITableViewDataSource {
 // ************** PAirSandboxCell ***************
 public class PAirSandBoxSwift: NSObject {
     
-    static let shared = PAirSandBoxSwift()
+  public static let shared = PAirSandBoxSwift()
     
     lazy var window: UIWindow = {
         let window = UIWindow()
