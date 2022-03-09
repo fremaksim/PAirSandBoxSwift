@@ -295,15 +295,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8MBN2HRF72;
+				DEVELOPMENT_TEAM = N9GHGJ2G6G;
 				INFOPLIST_FILE = PAirSandboxSwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mozheanquan.PAirSandboxSwiftExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morn.PAirSandboxSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -313,15 +313,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8MBN2HRF72;
+				DEVELOPMENT_TEAM = N9GHGJ2G6G;
 				INFOPLIST_FILE = PAirSandboxSwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mozheanquan.PAirSandboxSwiftExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morn.PAirSandboxSwiftExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -10,28 +10,28 @@ Pod::Spec.new do |spec|
 
   #Version
   spec.name          = "PAirSandboxSwift"
-  spec.version       = "0.0.5"
+  spec.version       = "0.0.6"
   spec.swift_version = "4.2"
-  spec.summary       = "A Swift verson of PAirSandbox(https://github.com/music4kid/AirSandbox)."
+  spec.summary       = "A Swift version of PAirSandbox(https://github.com/music4kid/AirSandbox)."
 
 
   spec.description  = <<-DESC
-                        A Swift verson of PAirSandbox(https://github.com/music4kid/AirSandbox).A simple class, enable you to view sandbox file system on iOS device, share files via airdrop, super convenient when you want to send log files from iOS device to Mac.
+                        A Swift version of PAirSandbox(https://github.com/music4kid/AirSandbox).A simple class, enable you to view sandbox file system on iOS device, share files via airdrop, super convenient when you want to send log files from iOS device to Mac.
                    DESC
 
   spec.homepage     = "https://github.com/fremaksim/PAirSandBoxSwift"
-  spec.license      = "MIT"
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.author             = { "fremaksim" => "lxwgh2007@gmail.com" }
+  spec.author             = { 'fremaksim' => 'lxwgh2007@gmail.com' }
 
 
   # Compatibility & Sources
   spec.platform     = :ios, "9.0"
 
-  spec.source       = { :git => "https://github.com/fremaksim/PAirSandBoxSwift.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/fremaksim/PAirSandBoxSwift.git", :tag => spec.version.to_s }
   spec.source_files  = 'PAirSandboxSwift/*.swift'
   spec.requires_arc  = true
 
